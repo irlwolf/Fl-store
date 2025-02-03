@@ -14,7 +14,7 @@ APP_ID = int(os.environ.get("APP_ID", "23580732"))
 API_HASH = os.environ.get("API_HASH", "81ca3df48f25d954b2ebef5aec715a73")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002409821863))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002409821863"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1302460619"))
@@ -31,7 +31,7 @@ SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "www.shortxlinks.com")
 SHORTLINK_API = os.environ.get('SHORTLINK_API', "89e10e3c7ab7b79375729adab10b92bf5d863f8d")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002470891127"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
